@@ -6,6 +6,7 @@
 	  2) 한 번 이동했던 정점은 물론, 한 번 이동했던 간선도 다시 이동 가능
 	  3) 단, 반드시 최단 경로로 이동해야 함
 */
+if 01
 #include <cstdio>
 #include <vector>
 #include <queue>
@@ -60,11 +61,12 @@ int main() {
 	else printf("%d\n", -1);
 	return 0;
 }
+#endif
 
 /********************************************************************************************/
 
 // BOJ_1654_랜선 자르기
-#if 0
+#if 01
 #pragma warning(disable: 4996)
 #include <cstdio>
 #include <algorithm>
@@ -117,7 +119,7 @@ int main()
 
 // BOJ_10775_공항 : Union-Find
 // 뒤에서부터 하는 것을 생각하는 것이 중요!!
-#if 0
+#if 01
 #pragma warning(disable: 4996)
 #include <cstdio>
 #include <algorithm>
